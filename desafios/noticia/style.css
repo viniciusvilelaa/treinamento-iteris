@@ -1,0 +1,43 @@
+
+
+.header{
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-top: 1px solid #d3d3d3;
+    margin-top: 10px;
+    width: 620px ;
+}
+
+.header h1{
+    font-size: 1.5em;
+    margin-top: 5px;
+    padding: 0;
+}
+.noticia{
+    border-right: 1px;
+    border-color: #d3d3d3;
+    border-style: solid;
+    margin-right: 20px;
+    width: 360px;
+}
+
+.noticia-cima{
+    border-bottom: 1px;
+    border-color: #d3d3d3;
+    border-style: solid;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.noticia-lado1{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.noticia-lado2{
+    display: flex;
+}
+
+.noticia-main{
+    display: flex;
+}
