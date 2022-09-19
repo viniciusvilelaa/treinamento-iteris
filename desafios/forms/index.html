@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario </title>
+</head>
+<body>
+    <header class="header">
+        <h1>Formulario</h1>
+    </header>
+    <main class="main">
+        <section class="form_d-flex">
+            <form class="form1">
+                <fieldset class="fieldset1">
+                <legend>Dados pessoais</legend>
+                <div class="divmain">
+                    <label for="nome">Nome: </label>
+                    <input name="nome" id="nome" type="text" required>
+                
+                <div>
+                    <label for="nome">Endereço: </label>
+                    <input name="Endereço" id="Endereço" type="text" required>
+                </div>
+                <div>
+                    <label for="Cidade">Cidade: </label>
+                    <input name="Cidade" id="Cidade" type="text" required>
+                </div>
+                <div>
+                    <label for="Estado">Estado: </label>
+                    <select name="Estado" id="Estado">
+                        <option value="1">Sao Paulo</option>
+                        <option value="2">Rio Grande do Norte</option>
+                        <option value="3">Franca</option>
+                    </select>
+                </div>
+            </fieldset>
+            </form>
+            <form form class="form2">
+                <fieldset class="fieldset2">
+                  <legend>Dados profissionais</legend>
+                  <legend>Natureza cargo:</legend>
+                <div class="div1"> 
+                    <input type="radio" id="gerencia" name="cargo" value="gerencia">
+                    <label for="gerencia">Gerencia</label><br>
+                    <input type="radio" id="financeiro" name="financeiro" value="financeiro">
+                    <label for="financeiro">financeiro</label><br>
+                    <input type="radio" id="recepcao" name="recepcao" value="recepcao">
+                    <label for="recepcao">Recepcao</label>
+                    <input type="radio" id="administrativo" name="administrativo" value="administrativo">
+                    <label for="administrativo">administrativo</label>
+                    <input type="radio" id="juridico" name="juridico" value="juridico">
+                    <label for="juridico">juridico</label>
+                </div>
+                <legend>Area interesse</legend>
+                <div class="div2">
+                    <input type="checkbox" id="Computacao" name="Computacao" value="Computacao">
+                    <label for="gerencia">Computacao</label><br>
+                    <input type="checkbox" id="biologia" name="biologia" value="biologia">
+                    <label for="biologia">biologia</label><br>
+                    <input type="checkbox" id="meio ambiente" name="meio ambiente" value="meio ambiente">
+                    <label for="meio ambiente">meio ambiente</label>
+                    <input type="checkbox" id="engenharia" name="engenharia" value="engenharia">
+                    <label for="engenharia">engenharia</label>
+                    <input type="checkbox" id="historia" name="historia" value="historia">
+                    <label for="historia">historia</label>
+                </div>
+                <div>
+                    <label for="mini-curriculo">mini-curriculo </label>
+                    <textarea name="mini-curriculo" id="mini-curriculo" cols="50" rows="5"></textarea>
+                </div>
+                </fieldset>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </div>
+              </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Desafio 1</p>
+    </footer>
+</body>
+</html>

@@ -1,3 +1,58 @@
 body {
     font-family: 'Open Sans', sans-serif;
-  }
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header,
+.footer {
+    background-color:#F58220;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.header h1{
+    height: 72px;
+    line-height: 72px;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.main {
+    padding: 15px 15px 100px 15px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 30px);
+}
+
+.footer p {
+    height: 42px;
+    line-height: 42px;
+    font-size: medium;
+    margin: 0;
+}
+
+.main .d-flex {
+    display: flex;
+}
+
+.main .d-flex .piece {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #7c7c80;
+}
+
+.main .d-flex .piece spam {
+    font-weight: bold;
+}
+
+.main .form{
+    color: #504f51;
+}
