@@ -1,0 +1,37 @@
+.tarefa-wrapper .tarefa {
+    min-height: 45px;
+    line-height: 45px;
+    margin: 0 5px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: 0 15px;
+    font-size: 20px;
+   width: 100%;
+  }
+ .tarefa-wrapper {
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   }
+  @keyframes strike {
+   from {
+     text-decoration-color: transparent;
+   }
+    to {
+ 
+    text-decoration-color: auto;
+     }
+   }
+    .tarefa-wrapper .tarefa.concluida {
+     text-decoration: line-through;
+     animation: strike 1s linear;
+   }
+    .tarefa-wrapper .checkbox {
+     min-width: 50px;
+     height: 50px;
+     margin-left: 5px;
+     font-size: 40px;
+     border-radius: 3px;
+     cursor: pointer;
+   }

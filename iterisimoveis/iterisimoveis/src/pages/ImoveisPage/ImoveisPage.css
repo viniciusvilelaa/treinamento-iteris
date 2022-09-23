@@ -1,0 +1,11 @@
+.listaImoveis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.listaImoveis__imovelCard{
+    margin: 5px;
+}
+

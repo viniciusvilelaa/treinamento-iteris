@@ -1,0 +1,10 @@
+.slideShow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.slideShow .slideShowCard{
+    max-width: 500px;
+}

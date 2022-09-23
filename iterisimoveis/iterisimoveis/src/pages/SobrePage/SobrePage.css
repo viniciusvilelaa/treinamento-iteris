@@ -1,0 +1,19 @@
+.sobre-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.sobre-page img{
+    max-width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.sobre-page p{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}

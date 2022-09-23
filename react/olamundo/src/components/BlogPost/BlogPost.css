@@ -1,0 +1,19 @@
+article.blogPost h2{
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(104, 102, 102, 0.4);
+    font-family: Helvetica;
+}
+
+article.blogPost img{
+    max-width: 100%;
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid rgba(104, 102, 102, 0.4);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+article.blogPost p{
+    font-size: 16px;
+    font-family: Helvetica;
+}
